@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container {
+    display:flex; 
+    flex-direction: row-reverse;
+    background-color: #3d0f0f;
+    margin: 10px;
+}
+
+.container2 {
+    display:flex;
+    flex-direction: column;
+    background-color: #3d0f0f;
+    margin:10px;
+}
+
+.container3 {
+    display:flex;
+    flex-direction: row;
+    background-color: #3d0f0f;
+    margin:10px;
+}
+
+.container div, 
+.container2 div {
+    background-color: #fbff0091;
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+}
+
+.container3 div {
+    flex:1; /*
+    dividi o espaço do conteudo*/
+    background-color: #0059ff;
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+}
