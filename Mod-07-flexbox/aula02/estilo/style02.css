@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*flex-wrap: wrap; faz o conteudo caber dentro do espaço que determinou
+justify-content:center; alinahmento vertical no centro
+justify-content:flex-star; começa onde o flex foi indicado
+justify-content: flex-end; começa onde o flex acaba
+justify-content: space-around; cria espaçamento iguais entre eles 
+justify-content: space-bettewel; espaçamento diferente entre eles
+align-items: center; alinhamento horizontal no centro
+ */
+
+header div.container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+   /* align-items: center; */
+  /*  flex-direction: row;  alinhamento na vertical*/
+    justify-content:space-between; /*alinhamento vertical no centro*/
+    background-color: #dddddd;
+}
+
+.container div {
+    width:100px;
+    height:100px;
+    background-color: #ff0000;
+    margin:10px;
+    padding: 10px;
+    font-size:18px;
+}
