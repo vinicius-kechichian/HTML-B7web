@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+* {
+    font-family: arial;
+}
 body {
     margin:0;
     padding:0;
@@ -93,4 +95,43 @@ nav a:hover {
 .banner-options {
     height: 210px;
     display: flex;
+}
+
+.banner01,
+.banner02,
+.banner03 {
+    flex:1;
+    color: azure;
+    padding: 20px;
+}
+
+.banner01 {
+    background-color: #39aae1;
+}
+
+.banner02 {
+    background-color: #0079c7;
+}
+
+.banner03 {
+    background-color: #2b4c99;
+}
+
+.banner-title {
+    font-size: 22px;
+}
+
+.banner-disc {
+    font-size: 12px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-options a {
+    display:inline-block;
+    text-decoration: none;
+    border:1px solid #fff;
+    padding: 5px;
+    color:white;
+    font-size: 12px;
 }
