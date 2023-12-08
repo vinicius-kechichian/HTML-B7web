@@ -53,8 +53,44 @@ nav a:hover {
 }
 
 #banner {
+    display: flex;
+    justify-content: center;
     background-image: url(../img/img1.jpg);
     background-position: center;
     background-size: cover;
     height:670px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headline h1 {
+    color: beige;
+    font-size: 70px;
+    text-shadow: 1px 1px 0px #00000060;
+    padding: 0;
+    margin: 0;
+    max-width: 350px;
+}
+
+.banner-headline h2 {
+    color: beige;
+    font-size: 22px;
+    text-shadow: 1px 1px 0px #00000060;
+    padding: 0;
+    margin: 0;
+    max-width: 350px;
+    margin-top: 25px;
+}
+.banner-options {
+    height: 210px;
+    display: flex;
 }
